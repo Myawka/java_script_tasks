@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/3e/e5/a7/3ee5a764989125d7b3b23b1d9ceae7d8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    text-indent: 40px;
+    font-family:cursive;
+    font-weight:bold;
+    text-align: justify;
+    width: 900px;
+}
+i{
+    color:rgb(183, 89, 89);
+}
