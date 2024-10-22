@@ -29,3 +29,11 @@ let d4 = 7;
 let result1 = c4 + d4;
 
 alert(result1);
+
+/*  19_1
+
+let a = 5 + 5 * 3;
+alert(a);
+
+ОТВЕТ: 18
+*/
