@@ -38,3 +38,6 @@ alert(str3);
 let a34;
 alert(a34);
 
+//35
+let a35 = null;
+alert(a35);
