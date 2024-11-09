@@ -254,19 +254,25 @@ alert(0.3 - 0.1);
 let age = prompt("Ваш возраст?");
 alert("Ваш возраст: " + age);
 
-// Задание 63 №1
+//63_1
 let num63_1 = Number(prompt('Введите первое число'));
 let num63_2 = Number(prompt('Введите второе число'));
 
 alert(num63_1 + num63_2); // теперь будет складывать числа
 
-// Задание 63 №2
+//63_2
 let side = Number(prompt('Введите сторону квадрата'));
 let s = side * side;
 alert('Площадь квадрата: ' + s);
 
-// Задание 63 №3
+//63_3
 let length = Number(prompt('Введите длину прямоугольника'));
 let width = Number(prompt('Введите ширину прямоугольника'));
 let p = 2 * (length + width);
 alert('Периметр прямоугольника: ' + p);
+
+//64_1
+document.write('Задание 64 №1<br>');
+
+//64_2
+document.write('<i>Задание 64 №2</i> <br>');
