@@ -41,3 +41,8 @@ alert(a34);
 //35
 let a35 = null;
 alert(a35);
+
+//36
+let a36 = true;
+let b36 = false;
+alert(a36, b36);
