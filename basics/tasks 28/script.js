@@ -33,3 +33,8 @@ let str3 = `a
 b
 c`; 
 alert(str3);
+
+//34
+let a34;
+alert(a34);
+
