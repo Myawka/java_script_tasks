@@ -171,3 +171,23 @@ alert(a44 + b44);
 //44_4
 // alert( '2' + Number('3') );
 // Результат = 23
+
+//45_1
+let a45 = '2';
+let b45 = '3';
+alert(+a45 + +b45);
+
+//47_1
+let a47_1 = parseInt('5px');
+let b47_1 = parseInt('6px');
+alert(a47_1 + b47_1);
+
+//47_2
+let a47_2 = parseFloat('5.5px');
+let b47_2 = parseFloat('6.25px');
+alert(a47_2 + b47_2);
+
+//47_3
+let a47_3 = parseFloat('5.5px');
+let b47_3 = parseFloat('6.25px');
+alert(a47_3 + b47_3 + 'px');
