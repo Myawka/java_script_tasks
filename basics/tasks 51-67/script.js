@@ -272,7 +272,18 @@ let p = 2 * (length + width);
 alert('Периметр прямоугольника: ' + p);
 
 //64_1
-document.write('Задание 64 №1<br>');
+document.write('Задание 64_1<br>');
 
 //64_2
-document.write('<i>Задание 64 №2</i> <br>');
+document.write('<i>Задание 64_2</i> <br>');
+
+//64_3
+let str64 = 'Задание 64_3';
+document.write('<i>' + str64 + '</i> <br>')
+
+//64_4
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
