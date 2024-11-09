@@ -25,8 +25,9 @@ alert('abcdefghijklmnopqrstuvwxyz'.length);
 //31
 let str1 = 'xxx';
 let str2 = 'yyy';
-let txt  = 'aaa ${str2} bbb ${str2} ccc';
+let txt  = `aaa ${str2} bbb ${str2} ccc`;
 alert(txt);
+
 
 //32
 let str3 = `a
@@ -57,3 +58,26 @@ alert( 10 / 0);
 
 //38_2
 alert(-10 / 0);
+
+//39_1
+let num39_1 = 10;
+console.log(num39_1);
+
+//39_2
+let num39_2 = 5;
+let num39_3 = 15;
+let num39_4 = 25;
+console.log(num39_2, num39_3, num39_4);
+
+//40
+console.log(10, 0);
+console.log(3.14, 1.0);
+console.log('hello');
+console.log(true, false);
+console.log('A', '!', '*');
+
+//41
+alert(mistake);
+
+// Результат задания 41 №1
+// script.js:83 Uncaught ReferenceError: mistake is not defined at script.js:83:7
