@@ -287,3 +287,130 @@ document.write('2<br>');
 document.write('3<br>');
 document.write('4<br>');
 document.write('5<br>');
+
+//65_1
+let num65_1 = 1;
+let num65_2 = 2;
+console.log('сумма: ' + (num65_1 + num65_2));
+
+//65_2
+let a65_2 = 1;
+let b65_2 = 2;
+console.log(a65_2 + b65_2);
+
+//65_3
+let num65_3 = '123';
+let sum65_3 = Number(num65_3[0]) + Number(num65_3[1]) + Number(num65_3[2]);
+console.log(sum65_3);
+
+//65_4
+let num65_4 = String(123);
+console.log((num65_4[0]));
+
+//65_5
+let c65_5 = 0;
+console.log(++c65_5);
+
+//65_6
+let num65_6 = String(123);
+console.log(num65_6.length);
+
+//65_7
+let k65_7 = 24 * 60 * 60;
+console.log(k65_7);
+
+//65_8
+let num65_8 = 123;
+let str65_8 = String(num65_8);
+console.log(str65_8.length);
+
+//65_9
+let num65_9 = 123;
+let str65_9 = String(num65_9);
+console.log(str65_9[str65_9.length - 1]);
+
+//65_10
+let num65_10 = 123;
+let str65_10 = String(num65_10);
+console.log(str65_10.length);
+
+//65_11
+let num65_11 = 123;
+let str65_11 = String(num65_11);
+console.log(str65_11[str65_11.length - 1]);
+
+
+//65_12
+let a65_12 = '123';
+let b65_12 = '456';
+let s65_12 = Number(a65_12) + Number(b65_12);
+console.log(s65_12);
+
+//65_13
+let aaa = 1;
+let bbb = 2;
+let ccc = 3;
+console.log(aaa + bbb + ccc);
+
+//66_1
+alert("Количество секунд в сутках = " + (24 * 60 * 60));
+
+//66_2
+alert("Количество секунд в 30 сутках = " + (30 * 24 * 60 * 60));
+
+//66_3
+alert("Количество секунд в году = " + (10 * (1024) ** 3));
+
+//66_4
+alert("Количество минут в сутках = " + (24 * 60));
+
+//66_5
+alert("Количество минут в году = " + (365 * 24 * 60));
+
+//66_6
+alert("Количество байт в мегабайте = " + (1024 * 1024));
+
+//66_7
+alert("Количество байт в гигабайте. = " + ((1024) ** 3));
+
+//66_8
+alert("Количество байт в 10 гигабайтах = " + (10 * (1024) ** 3));
+
+//66_9
+alert("Количество байт в терабайте = " + ((1024) ** 4));
+
+//66_10
+alert("Количество килобайт в терабайте = " + ((1024) ** 3));
+
+//67_1
+let r67 = 5
+const pi = 3.14;
+let s67 = pi *(r67)**2;
+console.log('S круга = ' + s67);
+
+//67_2
+let a67_2 = 4; 
+let s67_2 = (a67_2) ** 2; 
+console.log('S квадрата = ' + s67_2); 
+
+//67_3
+let a67_3 = 4; 
+let b67_3 = 6; 
+let s67_3 = a67_3 * b67_3; 
+console.log('S прямоугольника = ' + s67_3); 
+
+//67_4
+let a67_4 = 4; 
+let b67_4 = 6; 
+let p67_4 = 2 * (a67_4+b67_4); 
+console.log('P прямоугольника = ' + p67_4); 
+
+//67_5
+let tc67_5 = 25; 
+let tf67_5 = (tc67_5 * 9/5) + 32;
+console.log('25C в F будет = ' + tf67_5); 
+
+//67_6
+let tf67_6 = 77; 
+let tc67_6 = (tf67_6 - 32) * 5/9;
+console.log('77F в C будет = ' + tc67_6); 
