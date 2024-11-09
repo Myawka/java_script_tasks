@@ -78,6 +78,10 @@ console.log('A', '!', '*');
 
 //41
 alert(mistake);
-
-// Результат задания 41 №1
 // script.js:83 Uncaught ReferenceError: mistake is not defined at script.js:83:7
+
+//42
+const PI = 3.14;
+let r = 5;
+alert(2*PI*r);
+
