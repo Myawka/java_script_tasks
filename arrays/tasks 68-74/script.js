@@ -49,3 +49,22 @@ arr72[0] += 3;
 arr72[1] += 3;
 arr72[2] += 3;
 console.log(arr72);
+
+//73_1
+let arr73 = [1, 2, 3];
+arr73[0]++;
+arr73[1]++;
+arr73[2]++;
+console.log(arr73);
+
+//74_1
+let arr74 = [];
+arr74[0] = 1;
+arr74[1] = 2;
+arr74[2] = 3;
+console.log(arr74); 
+
+//74_2
+arr74[3] = 4;
+arr74[4] = 5;
+console.log(arr74);
