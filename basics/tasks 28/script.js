@@ -17,3 +17,4 @@ alert(a+b);
 //29_3
 let c = "hello";
 let d = "world";
+alert(c+' '+d)
