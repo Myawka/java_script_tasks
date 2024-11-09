@@ -18,3 +18,7 @@ alert(a+b);
 let c = "hello";
 let d = "world";
 alert(c+' '+d)
+
+//30
+alert('abcdefghijklmnopqrstuvwxyz'.length);
+
