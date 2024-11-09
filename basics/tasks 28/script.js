@@ -191,3 +191,46 @@ alert(a47_2 + b47_2);
 let a47_3 = parseFloat('5.5px');
 let b47_3 = parseFloat('6.25px');
 alert(a47_3 + b47_3 + 'px');
+
+//48_1
+let a48 = 5;
+let b48 = 45;
+alert(String(a48) + String(b48)); 
+
+// Задание 49 №1
+let a49_1 = 545;
+alert(String(a49_1).length);
+
+//49_2
+let a49_2 = 55; 
+let b49_2 = 245;   
+let sum49_2 = String(a49_2).length + String(b49_2).length;
+alert(sum49_2);
+
+//50_1
+// alert(true + 3);
+// Результат = 4
+
+//50_2
+// alert(true + true);
+// Результат = 2
+
+//50_3
+// alert(true - true);
+// Результат = 0
+
+//50_4
+// alert(true + false);
+// Результат = 1
+
+//50_5
+// alert('1' + true);
+// Результат = 1true
+
+//50_6
+// alert( String(true) + 1 );
+// Результат = true1
+
+//50_7
+// alert( String(true) + Number(true) );
+// Результат = true1
