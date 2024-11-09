@@ -22,3 +22,8 @@ alert(c+' '+d)
 //30
 alert('abcdefghijklmnopqrstuvwxyz'.length);
 
+//31
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt  = 'aaa ${str2} bbb ${str2} ccc';
+
