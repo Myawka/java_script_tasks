@@ -51,3 +51,9 @@ alert(a36, b36);
 let str37 = 'Java';
 let str37_1 = 'Script';
 alert(str37*str37_1);
+
+//38_1
+alert( 10 / 0); 
+
+//38_2
+alert(-10 / 0);
