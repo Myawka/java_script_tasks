@@ -46,3 +46,8 @@ alert(a35);
 let a36 = true;
 let b36 = false;
 alert(a36, b36);
+
+//37
+let str37 = 'Java';
+let str37_1 = 'Script';
+alert(str37*str37_1);
