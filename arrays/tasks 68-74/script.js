@@ -27,3 +27,18 @@ console.log(arr69_3[0] + arr69_3[1] + arr69_3[2]);
 //69_4
 let arr69_4 = ['a', 'b', 'c', 'd'];
 console.log(String(arr69_4[0])+ "+" + String(arr69_4[1])+ '+' + String(arr69_4[2])+ '+' + String(arr69_4[3]));
+
+//70_1
+let arr70_1 = ['cat', 'kitten', 'meow'];
+console.log(arr70_1.length) 
+
+//70_2
+let arr70_2 = ['cat', 'kitten', 'meow', 'fluffy'];
+console.log(arr70_2[arr70_2.length - 1]) 
+
+//71_1
+let arr71_1 = ['a', 'b', 'c'];
+arr71_1[0] = '1';
+arr71_1[1] = '2';
+arr71_1[2] = '3';
+console.log(arr71_1);
