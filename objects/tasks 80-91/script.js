@@ -56,3 +56,8 @@ let obj87 = {3: 'cat', 87: 'kitten', 14: 'meow'};
 console.log(obj87[3])
 console.log(obj87[87]); 
 console.log(obj87[14]);
+
+//88_1
+let obj88 = {x: 1, y: 2, z: 3};
+let keys = Object.keys(obj88);
+console.log(keys);
