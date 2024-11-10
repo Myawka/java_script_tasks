@@ -65,3 +65,8 @@ console.log(keys);
 //89_1
 let obj89 = {x: 1, y: 2, z: 3};
 console.log(Object.keys(obj89).length);
+
+//90_1
+let obj90 = {x: 1, y: 2, z: 3};
+let key90 = 'x';
+console.log(obj90[key90]);
