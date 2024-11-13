@@ -55,3 +55,26 @@ console.log('x' in obj95);
 // let obj1 = {x: 1, y: 2, z: 3};
 // console.log( typeof obj1['x'] ); 
 // Результат = number
+
+//97_1
+// console.log( typeof {x: 1, y: 2, z: 3} ); 
+// Результат вывода = object
+
+//97_2
+// console.log( typeof [1, 2, 3] ); 
+// Результат вывода = object
+
+//97_3
+// let arr1 = [1, 2, 3];
+// console.log( typeof arr1 ); 
+// Результат = object
+
+//97_4
+// let arr2 = [1, 2, 3];
+// console.log( typeof arr2[0] ); 
+// Результат = number
+
+//97_5
+// let arr3 = ['1', '2', '3'];
+// console.log( typeof arr3[0] ); 
+// Результат = string
