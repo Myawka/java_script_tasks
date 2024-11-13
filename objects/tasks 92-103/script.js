@@ -29,5 +29,12 @@ console.log(obj92_2[prop92_2]);
 
 //94_1
 let obj94 = {x: 1, y: 2, z: 3};
-console.log('x' in obj94); //Результат вывода = true
-console.log('w' in obj94); //Результат вывода = false 
+console.log('x' in obj94); //Результат = true
+console.log('w' in obj94); //Результат = false 
+
+//95_1
+let obj95 = {x: 1, y: 2, z: 3};
+delete obj95.x;
+console.log('x' in obj95);
+//Результат = {y: 2, z: 3}
+
