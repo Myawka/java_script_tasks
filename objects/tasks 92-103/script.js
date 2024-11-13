@@ -96,3 +96,35 @@ console.log('x' in obj95);
 // let test = {x: 1, y: 2, z: 3};
 // console.log(test.x);
 // Результат = 1 (примитив)
+
+//99_3
+// let test = [1, 2, 3];
+// console.log(test);
+// Результат = [1, 2, 3] (объект)
+
+//99_4
+// let test = [1, 2, 3];
+// console.log(test[1]);
+// Результат = 2 (примитив)
+
+//99_5
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+// console.log(test1);
+// Результат = [1, 2, 3] (объект)
+
+//99_6
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+// console.log(test1[test2]);
+// Результат = 2 (примитив)
+
+//99_7
+// Примитивные типы данных в JS:
+// 1. string
+// 2. number
+// 3. boolean
+// 4. null
+// 5. undefined
+// 6. symbol (ES6)
+// 7. bigint (ES11)
