@@ -78,3 +78,21 @@ console.log('x' in obj95);
 // let arr3 = ['1', '2', '3'];
 // console.log( typeof arr3[0] ); 
 // Результат = string
+
+//98_1
+// console.log( Array.isArray([1, 2, 3]) );
+// Результат = true
+
+//98_2
+// console.log( Array.isArray({x: 1, y: 2, z: 3}) ); 
+// Результат = false
+
+//99_1
+// let test = {x: 1, y: 2, z: 3};
+// console.log(test);
+// Результат = x: 1, y: 2, z: 3} (объект)
+
+//99_2
+// let test = {x: 1, y: 2, z: 3};
+// console.log(test.x);
+// Результат = 1 (примитив)
