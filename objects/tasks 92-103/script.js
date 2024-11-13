@@ -38,3 +38,20 @@ delete obj95.x;
 console.log('x' in obj95);
 //Результат = {y: 2, z: 3}
 
+//96_1
+// console.log( typeof {x: 1, y: 2, z: 3} );
+// Результат =  object
+
+//96_2
+// console.log( typeof {} );
+// Результат =  object
+
+//96_3
+// let obj = {x: 1, y: 2, z: 3};
+// console.log( typeof obj );
+// Результат =  object
+
+//96_4
+// let obj1 = {x: 1, y: 2, z: 3};
+// console.log( typeof obj1['x'] ); 
+// Результат = number
