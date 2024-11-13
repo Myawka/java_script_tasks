@@ -128,3 +128,18 @@ console.log('x' in obj95);
 // 5. undefined
 // 6. symbol (ES6)
 // 7. bigint (ES11)
+
+//100_1
+//let arr1 = [1, 2, 3];
+//let arr2 = arr1;
+//arr1[0] = 'a';
+//console.log(arr2);
+// Результат = ['a', 2, 3]
+
+//100_2
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+// console.log(arr1);
+// Результат = ['a', 'b', 3] 
