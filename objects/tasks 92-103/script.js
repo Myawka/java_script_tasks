@@ -26,3 +26,9 @@ console.log(obj92_2[prop92_2]);
 // 	let key93_1 = 'x';
 // 	let key93_2 = 'y';
 // 	let key93_3 = 'z';
+
+
+//94_1
+let obj94 = {x: 1, y: 2, z: 3};
+console.log('x' in obj94); //Результат вывода = true
+console.log('w' in obj94); //Результат вывода = false 
