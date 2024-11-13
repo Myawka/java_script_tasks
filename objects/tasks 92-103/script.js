@@ -143,3 +143,29 @@ console.log('x' in obj95);
 // arr2[1] = 'b';
 // console.log(arr1);
 // Результат = ['a', 'b', 3] 
+
+//100_3
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr2);
+// Результат = ['b', 2, 3]
+
+//101_1
+const arr101_1 = ['a', 'b', 'c'];
+arr101_1[1] = '!';
+console.log(arr101_1);
+// Результат вывода = ['a', '!', 'c']                                                                                                     
+
+//101_2
+const arr101_2 = ['a', 'b', 'c'];
+arr101_2 = [1, 2, 3];
+console.log(arr101_2);
+// Результат = Uncaught TypeError: Assignment to constant variable. (нельзя переназначить константу)                                                                                                     
+
+//101_3
+const arr101_3 = ['a', 'b', 'c'];
+arr101_3 = ['a', 'b', 'c'];
+console.log(arr101_3);
+// Результат = Uncaught TypeError: Assignment to constant variable. (нельзя переназначить константу) 
