@@ -29,3 +29,11 @@ if (test105_4 <= 10) {
 } else {
 	console.log('---');
 }
+
+//106_1
+let test106 = 10;
+if (test106 == 10) {
+	console.log('+++'); 
+} else {
+	console.log('---');
+}
