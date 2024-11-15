@@ -45,3 +45,30 @@ if (test107 != 10) {
 } else {
 	console.log('---');
 }
+
+//108_1
+let test108_1 = 5;
+let test108_2 = 15;
+if (test108_1 > test108_2) {
+	console.log('test108_1 > test108_2'); 
+} else {
+	console.log('test108_1 < test108_2');
+}
+
+//108_2
+let test108_3 = 5;
+let test108_4 = 5;
+if (test108_3 == test108_4) {
+	console.log('test108_3 = test108_4'); 
+} else {
+	console.log('test108_3 != test108_4');
+}
+
+//109_1
+let test109_1 = 'cat';
+let test109_2 = 'meow';
+if (test109_1 = test105_2){
+	console.log('test109_1 = test109_2')
+} else{
+	console.log('test109_1 != test109_2');
+}
