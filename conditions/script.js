@@ -72,3 +72,12 @@ if (test109_1 = test105_2){
 } else{
 	console.log('test109_1 != test109_2');
 }
+
+//110_1
+let test110_1 = '123';
+let test110_2 = 123;
+if (test110_1 = test110_2){
+	console.log('test110_1 = test110_2')
+} else{
+	console.log('test110_1 != test110_2');
+}
