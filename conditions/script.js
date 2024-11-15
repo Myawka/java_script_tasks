@@ -133,3 +133,53 @@ if (test110_1 = test110_2){
 // 	console.log('---');
 // }
 // Вывод = +++
+
+//112_1
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 != test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = ---
+
+//112_2
+// let test1 = '3';
+// let test2 = '3';		
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = ---
+
+//112_3
+// let test1 = 3;
+// let test2 = '3';	
+// if (test1 != test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = ---
+
+//112_4
+// let test1 = 3;
+// let test2 = '3';		
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
+
+//112_5
+// let test1 = 3;
+// let test2 = 2;	
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
