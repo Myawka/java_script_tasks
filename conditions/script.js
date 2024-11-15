@@ -183,3 +183,29 @@ if (test110_1 = test110_2){
 // 	console.log('---');
 // }
 // Вывод = +++
+
+
+//113_1
+let num113_1 = 4;
+if (num113_1 > 0 && num113_1 < 5) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//113_2
+let num113_2 = 1;
+if (num113_2 >= 10 && num113_2 <= 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//113_3
+let num113_3 = 0;
+let num113_4 = 6;
+if (num113_3 <= 1 && num113_4 >= 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
