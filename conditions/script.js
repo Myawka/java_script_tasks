@@ -81,3 +81,55 @@ if (test110_1 = test110_2){
 } else{
 	console.log('test110_1 != test110_2');
 }
+
+//111_1
+// let test1 = '3';
+// let test2 = '3';		
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
+
+//111_2
+// let test1 = '3';
+// let test2 = '3';	
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
+
+//111_3
+// let test1 = 3;
+// let test2 = '3';		
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
+
+//111_4
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = ---
+
+//111_5
+// let test1 = 3;
+// let test2 = 3;
+		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Вывод = +++
