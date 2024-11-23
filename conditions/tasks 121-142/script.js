@@ -21,3 +21,93 @@ if (test121_3) {
 } else {
   console.log('---');
 }
+
+// 122_1
+// let test = 3;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = +++
+
+// 122_2
+// let test = 'abc';
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = +++
+
+// 122_3
+// let test = '';
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_4
+// let test = 3 * 'abc';
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_5
+// let test = null;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_6
+// let test = false;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_7
+// let test;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_8
+// let test = 0;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = ---
+
+// 122_9
+// let test = '0';
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = +++
+
+// 122_10
+// let test = -1;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = +++
