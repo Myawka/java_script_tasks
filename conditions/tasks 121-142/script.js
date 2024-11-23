@@ -330,3 +330,56 @@ if (age135_4 >= 18) {
 	res135_4 = 'меньше 18';
 }
 console.log(res135_4);
+
+// Задание 136 №1
+let min = 10;
+if (min >= 0 && min <= 19) {
+  console.log('1 треть');
+} else if (min >= 20 && min <= 39) {
+  console.log('2 треть');
+} else if (min >= 40 && min <= 59) {
+  console.log('3 треть');
+}
+
+//137_1
+let arr137 = [1, 2, 3];
+if (arr137.length === 3) {
+  let sum137 = arr137[0] + arr137[1] + arr137[2];
+  console.log(sum137);
+}
+
+//138_1
+let str = 'culture';
+if (str[0] == 'a') {
+	console.log('yes');
+}
+
+//138_2
+let str2 = 'box';
+if (str2[str2.length - 1] == 'x') {
+	console.log('yes');
+}
+
+//138_3
+let str3 = 'base';
+if (str3[0] == 'a' || str3[0] == 'b') {
+	console.log('yes');
+}
+
+//139_1
+let num139_1 = '500';
+ if (num139_1[num139_1.length - 1] == '0'){
+    console.log('Последняя цифра = 0');
+ }
+
+//139_2
+ let num139_2 = '222';
+ let last = num139_2[num139_2.length - 1];
+ if (last == '0' || last == '2' || last == '4' || last == '6' || last == '8') {
+     console.log('Число четное');
+ } else {
+     console.log("Число нечетное");
+ } 
+
+
+ 
