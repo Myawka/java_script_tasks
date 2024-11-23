@@ -321,3 +321,12 @@ if (num116_3 == 9 || (num116_3 > 10 && num116_3 < 20) || (num116_3 > 20 && num11
 } else {
 	console.log('---');
 }
+
+//117_1
+let num117_1 = 5;
+let num117_2 = 1;
+if (! (num117_1 < 0 || num117_2 > 10) ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
