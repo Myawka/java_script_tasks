@@ -111,3 +111,76 @@ if (test121_3) {
 // 	console.log('---');
 // }
 // Результат = +++
+
+
+//123_1
+let test123_1 = true;
+let test123_2 = true;
+if (test123_1 && test123_2 ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_2
+let test123_3 = true;
+let test123_4 = true;
+if (test123_3 && !test123_4) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_3
+let test123_5 = true;
+let test123_6 = true;
+if (!test123_5 && !test123_6 ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_4
+let test123_7 = true;
+let test123_8 = true;
+if (test123_7 && test123_8) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_5
+let test123_9 = true;
+let test123_10 = true;
+let test123_11 = true;
+if (test123_9 && test123_10 && test123_11) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_6
+let test123_12 = true;
+let test123_13 = true;
+let test123_14 = true;
+if (test123_12 || test123_13 && test123_14 ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//123_7
+let test123_15 = true;
+let test123_16 = true;
+let test123_17 = true;
+if (test123_15 || !test123_16 && !test123_17) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//124_1
+let test124 = 10;
+if (test124 == 10) {
+	console.log('yes');
+}
