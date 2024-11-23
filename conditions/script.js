@@ -403,3 +403,21 @@ if (test118_2 === false) {
 //   console.log('---');
 // }
 // Результат = +++ 
+
+// 119_7
+// let test;  
+// if (test == true) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = --- 
+
+// 119_8
+// let test = 3 * 'a';  
+// if (test == true) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = --- 
