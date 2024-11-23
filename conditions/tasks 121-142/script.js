@@ -271,3 +271,13 @@ if (task133) {
 } else {
 	alert('Доступ запрещен');
 }
+
+//134_1
+let age = 17;
+let adult;
+if (age >= 18) {
+    adult = true;
+} else {
+    adult = false;
+}
+console.log(adult)
