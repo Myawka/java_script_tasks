@@ -348,3 +348,31 @@ if (test118_2 === false) {
 } else {
 	console.log('---');
 }
+
+// 119_1
+// При приведении к логическому типу значения, которые дают false, включают:
+// 1. false
+// 2. 0 
+// 3. -0 
+// 4. ""
+// 5. null
+// 6. NaN
+// 7. undefined 
+
+// 119_2
+// let test = 1;	
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// Результат = +++
+
+// 119_3
+// let test = 0;  
+// if (test == true) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = --- 
