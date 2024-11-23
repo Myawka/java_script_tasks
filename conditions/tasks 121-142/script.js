@@ -396,3 +396,118 @@ if (b % 3 === 0) {
 } else {
 	console.log('Число делится на 3 с остатком');
 }
+
+//141_1
+let num140 = 1;
+let num140_1 = 2;
+if (num140 + num140_1 === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_2
+let num140_2 = '1';
+let num140_3 = '2';
+if (Number(num140_2) + Number(num140_3) === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_3
+let num140_4 = '1';
+let num140_5 = '2';
+if (Number(num140_4) + Number(num140_5) === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_4
+let num140_6 = 123;
+let str140_4 = String(num140_6);
+if (str140_4[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_5
+let num140_8 = 123;
+let str140_5 = String(num140_8);
+
+if (Number(str140_5[0]) === 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_6
+let num140_9 = 123;
+if (String(num140_9)[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_7
+let num140_10 = 123;
+let first = String(num140_10)[0];
+if (first == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_8
+let num140_11 = 12;
+let str140_8 = String(num140_11);
+if (str140_8.length == 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_9
+let num140_12 = 12;
+let str140_9 = String(num140_12);
+if (Number(str140_9.length) === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_10
+let num140_13 = 12;
+if (String(num140_13).length === 2) {
+ console.log('+++');
+} else {
+ console.log('---');
+}
+
+//141_11
+let num140_14 = 12;
+if (String(num140_14).length == 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_12
+let num140_15 = 12;
+if (String(num140_15).length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//141_13
+let num140_16 = '123033'; // берем в кавычки, чтобы обращаться к цифрам
+let sum140_1 = Number(num140_16[0]) + Number(num140_16[1]) + Number(num140_16[2]);
+let sum140_2 = Number(num140_16[3]) + Number(num140_16[4]) + Number(num140_16[5]);
+if (sum140_1 == sum140_2) {
+	console.log('суммы равны');
+} else {
+	console.log('суммы не равны');
+}
