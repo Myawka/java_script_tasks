@@ -330,3 +330,21 @@ if (! (num117_1 < 0 || num117_2 > 10) ) {
 } else {
 	console.log('---');
 }
+
+//118_1
+let test118_1 = true;
+
+if (test118_1 === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//118_2
+let test118_2 = false;
+
+if (test118_2 === false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
