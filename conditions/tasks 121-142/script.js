@@ -511,3 +511,60 @@ if (sum140_1 == sum140_2) {
 } else {
 	console.log('суммы не равны');
 }
+
+//142_1
+let month = 5; 
+let season;
+if (month == 12 || month == 1 || month == 2) {
+    season = "Зима";
+} else if (month >= 3 && month <= 5) {
+    season = "Весна";
+} else if (month >= 6 && month <= 8) {
+    season = "Лето";
+} else if (month >= 9 && month <= 11) {
+    season = "Осень";
+} else {
+    season = "Неправильно введен порядок месяца";
+}
+console.log(season);
+
+//142_2
+let str142_2 = 'alladin'; 
+if (str142_2[0] == 'a') {
+    console.log('Да');
+} else {
+    console.log('Нет');
+}
+
+//142_3
+let num142_3 = 1234;
+let str142_3 = String(num142_3);
+if (str142_3[0] == '1' || str142_3[0] == '2' || str142_3[0] == '3') {
+ console.log('Да');
+} else {
+    console.log('Нет');
+}
+   
+//142_4
+let arr142_4 = 123;
+let str142_4 = String(arr142_4);
+let x142_4 = 0;
+let sum142_4 = 0;
+if (Number(str142_4) !== 0) {
+  for (let i = 0; i < str142_4.length; i++) {
+    x142_4 = Number(str142_4[i]);
+    sum142_4 = sum142_4 + x142_4;
+  }
+  console.log('Сумма равна: ' + sum142_4);
+}
+
+//142_5
+let num142_5 = 123006;
+let y = String(num142_5);
+let sum142_5 = Number(y[0]) + Number(y[1]) + Number(y[2]);
+let sum142_6 = Number(y[3]) + Number(y[4]) + Number(y[5]);
+if (sum142_5 === sum142_6) {
+    console.log('Да');
+} else {
+    console.log('Нет');
+}
