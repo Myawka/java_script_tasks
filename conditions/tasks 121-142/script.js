@@ -281,3 +281,52 @@ if (age >= 18) {
     adult = false;
 }
 console.log(adult)
+
+//135_1
+let age135_1 = 17;
+let adult135_1;
+if (age135_1 >= 18) {
+	 adult135_1 = true;
+} else {
+	adult135_1 = false;
+}
+
+console.log(adult135_1);
+
+//135_2
+let age135_2 = 17;
+let adult135_2;
+if (age135_2 >= 18) {
+	adult135_2 = true;
+} else {
+	adult135_2 = false;
+}
+console.log(adult135_2);
+
+//135_3
+let age135_3 = 17;
+let res135_3;
+if (age135_3 >= 18) {
+	if (age135_3 <= 23) {
+         res135_3 = 'от 18 до 23';
+	} else {
+		res135_3 = 'больше 23';
+	}
+} else {
+    res135_3 = 'меньше 18';
+}
+console.log(res135_3);
+
+//135_4
+let age135_4 = 19;
+let res135_4;
+if (age135_4 >= 18) {
+	if (age135_4 <= 23) {
+		res135_4 = 'от 18 до 23';
+	} else {
+		res135_4 = 'больше 23';
+	}
+} else {
+	res135_4 = 'меньше 18';
+}
+console.log(res135_4);
