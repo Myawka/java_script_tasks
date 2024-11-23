@@ -421,3 +421,11 @@ if (test118_2 === false) {
 //   console.log('---');
 // }
 // Результат = --- 
+
+//120_1
+let test120 = true;
+if (test120) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
