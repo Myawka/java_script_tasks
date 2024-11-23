@@ -214,3 +214,52 @@ if (day127_2 >= 1 && day127_2 <= 10) {
 } else {
   console.log('Неверное значение переменной day');
 }
+
+//128_1
+let num128 = 15;
+let sum128;
+if ((num128 >= 0) && (num128 <= 99)) {
+    sum128 =(num128 / 10) + num128 % 10; 
+	if (sum128 <= 9) {
+		console.log('Сумма цифр однозначна');
+	} else {
+		console.log('Сумма цифр двузначна');
+	}
+} 
+
+//129_1
+let lang = 'ru';
+switch (lang) {
+    case 'ru':
+		console.log('рус');
+	break;
+    case 'en':
+        console.log('анг');
+    break;
+    case 'de':
+		console.log('нем');
+	break;
+    default:
+		console.log('язык не поддерживается');
+	break;
+}
+
+//131_1
+let num131 = 1;
+let res131 = num131 >= 0 ? '1' : '2';
+console.log(res131);
+
+//132_1
+let a132_1 = 2 * (3 - 1);
+let b132_1 = 6 - 2;
+console.log(a132_1 == b132_1);
+
+//132_2
+let a132_2 = 5 * (7 - 4);
+let b132_2 = 1 + 2 + 7;
+console.log( a132_2 >= b132_2)
+
+//132_3
+let a132_3 = 2 ** 4;
+let b132_3 = 4 ** 2;
+console.log(a132_3 != b132_3);
