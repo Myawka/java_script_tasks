@@ -184,3 +184,33 @@ let test124 = 10;
 if (test124 == 10) {
 	console.log('yes');
 }
+
+//125_1
+let test125_1 = 5;
+if (test125_1 > 0) console.log('+++'); else console.log('---');
+
+//125_2
+let test125_2 = 15;
+if (test125_2 > 0) console.log('+++');
+
+//127_1
+let day127_1 = 25; 
+if (day127_1 >= 1 && day127_1 <= 10) {
+  console.log('Первая декада месяца');
+} else if (day127_1 >= 11 && day127_1 <= 20) {
+  console.log('Вторая декада месяца');
+} else if (day127_1 >= 21 && day127_1 <= 31) {
+  console.log('Третья декада месяца');
+}
+
+//127_2
+let day127_2 = 35;
+if (day127_2 >= 1 && day127_2 <= 10) {
+  console.log('Первая декада месяца');
+} else if (day127_2 >= 11 && day127_2 <= 20) {
+  console.log('Вторая декада месяца');
+} else if (day127_2 >= 21 && day127_2 <= 31) {
+  console.log('Третья декада месяца');
+} else {
+  console.log('Неверное значение переменной day');
+}
