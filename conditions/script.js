@@ -376,3 +376,30 @@ if (test118_2 === false) {
 //   console.log('---');
 // }
 // Результат = --- 
+
+// 119_4
+// let test = 1;  
+// if (test == false) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = --- 
+
+// 119_5
+// let test = 1;  
+// if (test != true) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = --- 
+
+// 119_6
+// let test = '';  
+// if (test == false) {
+//   console.log('+++');
+// } else {
+//   console.log('---');
+// }
+// Результат = +++ 
