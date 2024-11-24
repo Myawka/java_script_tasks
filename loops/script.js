@@ -42,3 +42,28 @@ while (num146_3 <= 1000) {
 }
 console.log('Число, полученное в результате умножение: ' + num146_3);
 console.log('Количество итераций,затраченных для этого: ' + task146_3);
+
+//147_1
+for (let i = 1; i <= 100; i++) {
+	console.log(i); 
+}
+
+//147_2
+for (let i = 11; i <= 33; i++) {
+	console.log(i); 
+}
+
+//147_3
+for (let i = 0; i <= 100; i= i+2) {
+	console.log(i); 
+}
+
+//147_4
+for (let i = 1; i <= 100; i= i+2) {
+	console.log(i); 
+}
+
+//147_5
+for (let i = 100; i >= 0; i--) {
+	console.log(i); 
+}
