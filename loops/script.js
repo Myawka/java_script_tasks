@@ -67,3 +67,27 @@ for (let i = 1; i <= 100; i= i+2) {
 for (let i = 100; i >= 0; i--) {
 	console.log(i); 
 }
+
+//148_1
+let arr148_1 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 0; i < arr148_1.length; i++) {
+	console.log(arr148_1[i]);
+}
+
+//148_2
+let arr148_2 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 1; i < arr148_2.length-1; i++) {
+	console.log(arr148_2[i]);
+}
+
+//148_3
+let arr148_3 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = arr148_3.length-1; i >= 0; i--) {
+	console.log(arr148_3[i]);
+}
+
+//148_4
+let arr148_4 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 0; i < arr148_4.length; i++) {
+	console.log(arr148_4[i]);
+}
