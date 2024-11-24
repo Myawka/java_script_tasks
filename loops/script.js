@@ -91,3 +91,19 @@ let arr148_4 = ['a', 'b', 'c', 'd', 'e'];
 for (let i = 0; i < arr148_4.length; i++) {
 	console.log(arr148_4[i]);
 }
+
+// Задание 149 №1);
+let arr149_1 = [2, 5, 9, 15, 1, 4];
+for (let elem149_1 of arr149_1) {
+	if (elem149_1 > 3 && elem149_1 < 10) {
+		console.log('Элементы массива, которые больше 3-х, но меньше 10: ' + elem149_1);
+	}
+}
+
+// Задание 149 №2
+let obj149_2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+for (let key149_2 in obj149_2) {
+	if (obj149_2[key149_2] % 2 !== 0) {
+		console.log('Нечетные числа: ' + obj149_2[key149_2]);
+	}
+}
