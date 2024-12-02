@@ -235,3 +235,46 @@ for (let key25 in obj25) {
 console.log(arr25_1);
 console.log(arr25_2);
 
+//167_26
+console.log('Результат задания 167 №26:')
+let obj26 = {
+	1: 125,
+	2: 225,
+	3: 128,
+	4: 356,
+	5: 145,
+	6: 281,
+	7: 452,
+};
+let arr26 = [];
+for (let key26 in obj26) {
+  let value26 = String(obj26[key26]);
+  if (value26[0] == 1 || value26[0] == 2) {
+      arr26.push(Number(value26));
+  }
+}
+console.log(arr26);
+
+//167_27
+console.log('Результат задания 167 №27:')
+let arr27_1 = ['a', 'b', 'c', 'd', 'e'];
+let arr27_2 = [1, 2, 3, 4, 5];
+let obj27 = {};
+for (let i = 0; i <= 4; i++) {
+  let key27 = arr27_2[i];
+  let value27 = arr27_1[i];
+  obj27[key27] = value27;
+}
+console.log(obj27);
+
+//167_28
+console.log('Результат задания 167 №28:')
+let arr28_1 = ['a', 'b', 'c', 'd', 'e'];
+let arr28_2 = [1, 2, 3, 4, 5];
+let obj28 = {};
+for (let i = 0; i <= 4; i++) {
+  let key28 = arr28_2[i];
+  let value28 = arr28_1[i];
+  obj28[key28] = value28;
+}
+console.log(obj28);
