@@ -190,3 +190,75 @@ for (let i = 1; i < 10; i++) {
 	str152_4 += i + "-";
 }
 console.log('Результат задания 152 №4: ' + str152_4);
+
+//153_1
+console.log('Результат задания 153 №1');
+for (let i = 10; i <= 100; i++) {
+	let str153_1 = String(i);
+		console.log(str153_1[0]);
+}
+
+//153_2
+console.log('Результат задания 153 №2');
+for (let i = 10; i <= 100; i++) {
+	let str153_2 = String(i); 
+		console.log(Number(str153_2[0]) + Number(str153_2[1]));
+}
+
+//153_3
+console.log('Результат задания 153 №3');
+for (let i = 10; i <= 1000; i++) {
+	let str153_3 = String(i);
+    if (str153_3[0] == '1')
+		console.log(str153_3);
+}
+
+//153_4
+console.log('Результат задания 153 №4');
+for (let i = 10; i <= 1000; i++) {
+	let str153_4 = String(i);
+    if (Number(str153_4[0]) + Number(str153_4[1]) == 5)
+		console.log(str153_4);
+}
+
+//154_1
+console.log('Результат задания 154 №1');
+let arr154_1 = [1, 2, 0, 4, 5];
+for (let elem154_1 of arr154_1) {
+    console.log(elem154_1);
+	if (elem154_1 == 0) {
+		break; 
+	}
+}
+
+//154_2
+let arr154_2 = [1, 8, 0, -4, 5];
+let sum154_2 = 0;
+for (let elem154_2 of arr154_2) {
+	if (elem154_2 < 0) {
+		break; 
+	}
+    sum154_2 += elem154_2;
+}
+console.log('Результат задания 154 №2: ' + sum154_2);
+
+//154_3
+let arr154_3 = [1, 8, 3, -4, 5];
+let key154_3 = 0;
+for (let elem154_3 of arr154_3) {
+    key154_3++;
+	if (elem154_3 == 3) {
+		break; 
+	}
+}
+console.log('Результат задания 154 №3: ' + key154_3);
+
+//154_4
+let result154_4 = 0;
+for (i = 1; i < 100; i++) {
+  result154_4 = result154_4 + i;
+  if (result154_4>100) {
+    break;
+  }
+}
+console.log('Результат задания 154 №4: ' + i);
