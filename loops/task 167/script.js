@@ -123,3 +123,46 @@ for (let i = arr15.length - 1; i >= 0; i--) {
   console.log(arr15[i]);
 }
 
+//167_16
+console.log('Результат задания 167 №16:');
+let arr16 = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr16.length; i++) {
+  let arr16_2 = arr16[i];
+  if (arr16_2 === i) {
+      console.log(arr16[i]);
+  }
+}
+
+//167_17
+console.log('Результат задания 167 №17:');
+let arr17 = [5, 11, 325, 56, 67];
+for (let i = 0; i < arr17.length; i++) {
+  console.log(arr17[i] + '<br>');
+}
+
+//167_18
+console.log('Результат задания 167 №18:');
+let arr18 = [5, 11, 35, 96, 12];
+for (let i = 0; i < arr18.length; i++) {
+  console.log(arr18[i] + '<p>');
+}
+
+//167_19
+console.log('Результат задания 167 №19:');
+let arr19 = ['Monday', 'Thuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+let arr19_2 = '';
+for (let i = 0; i <= arr19.length - 3; i++) {
+  arr19_2 += arr19[i] + ' ';
+}
+console.log(arr19_2 + '<b>' + 'Saturday' + '</b>' + ' ' + '<b>' + 'Sunday' + '</b>');
+
+//167_20
+console.log('Результат задания 167 №20:');
+let arr20 = ['Monday', 'Thuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+day = arr20[6];
+week = [];
+for (let i = 0; i < arr20.length - 1; i++) {
+  week += ' ' + arr20[i] + ' ';
+}
+console.log(week + ' ' + '<i>' + day + ' ' + '</i>');
+
