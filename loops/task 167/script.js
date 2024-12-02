@@ -79,3 +79,47 @@ for (let elem10 of arr10) {
 }
 console.log(result10 / arr10.length);
 
+//167_11
+console.log('Результат задания 167 №11:');
+let arr11 = [2, 3, 6, 8, 10];
+let result11 = 1;
+for (i = 0; i <= arr11.length - 3; i++) {
+  result11 *= arr11[i];
+}
+console.log(result11);
+
+//167_12
+console.log('Результат задания 167 №12:');
+let arr12 = [];
+for (let i = 1; i <= 10; i++) {
+  arr12.push(i);
+}
+console.log(arr12);
+
+//167_13
+console.log('Результат задания 167 №13:');
+let arr13 = [-5, 1, 5, 10, -15, -25];
+let result13 = 0;
+for (let elem13 of arr13) {
+  if (elem13 >= 0) {
+      result13 += elem13;
+  }
+}
+console.log(result13);
+
+//167_14
+console.log('Результат задания 167 №14:');
+let arr14 = [50, 65, 70, 80, 95, 100];
+for (let elem14 of arr14) {
+  let str14 = String(elem14);
+  if (str14[0] == 1 || str14[0] == 2 || str14[0] == 5)
+      console.log(str14);
+}
+
+//167_15
+console.log('Результат задания 167 №15:');
+let arr15 = [10, 20, 50, 34, 23];
+for (let i = arr15.length - 1; i >= 0; i--) {
+  console.log(arr15[i]);
+}
+
