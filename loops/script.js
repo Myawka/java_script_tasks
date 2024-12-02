@@ -128,3 +128,37 @@ for (let elem150_3 = 1; elem150_3 <= 20; elem150_3 ++) {
 	    res150_3 *= elem150_3;
 }
 console.log('Произведение целых чисел от 1 до 20: ' + res150_3);
+
+//151_1
+let arr151_1 = [2, 5, 9, 3, 1, 4];
+let res151_1 = 0;
+for (let elem151_1 of arr151_1) {
+	res151_1 += elem151_1;
+}
+console.log('Результат задания 151 №1: ' + res151_1);
+
+//151_2
+let arr151_2 = [2, 5, 9, 3, 1, 4];
+let result151_2 = 0;
+for (let elem151_2 of arr151_2) {
+    if (elem151_2 % 2 == 0){
+        result151_2 += elem151_2;
+    }
+}
+console.log('Результат задания 151 №2: ' + result151_2);
+
+//151_3
+let arr151_3 = [2, 5, 9, 3, 1, 4];
+let res151_3 = 0;
+for (let elem151_3 of arr151_3) {
+    res151_3 += (elem151_3 ** 2);
+}
+console.log('Результат задания 151 №3: ' + res151_3);
+
+//151_4
+let arr151_4 = [2, 5, 9, 3, 1, 4];
+let res151_4 = 1;
+for (let elem151_4 of arr151_4) {
+    res151_4 *= elem151_4;
+}
+console.log('Результат задания 151 №4: ' + res151_4);
