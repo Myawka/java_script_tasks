@@ -108,3 +108,33 @@ for ( let i in obj162_2){
 }
 console.log(obj162_2)
 
+//163_1
+let arr163_1 = ['a', 'b', 'c', 'd', 'e'];
+let flag163_1 = false;
+for (let elem163_1 of arr163_1) {
+	if (elem163_1 == 'c') {
+		flag163_1 = true;
+		break;
+	}
+}
+if (flag163_1 === true) {
+	console.log('В этом массиве есть элемент c? Ответ: +++');
+} else {
+	console.log('В этом массиве есть элемент c? Ответ: ---');
+}
+
+//163_2
+let task163_2 = 125;
+let flag163_2 = true;
+for (let i = 2; i <= Math.sqrt(task163_2); i++) {
+    if (task163_2 % i === 0) { 
+        flag163_2 = false;
+        break;
+    }
+}
+if (flag163_2 === true) {
+    console.log('Результат задания 163 №2: Число ' + task163_2 + ' простое');
+} else {
+    console.log('Результат задания 163 №2: Число ' + task163_2 + ' составное');
+}
+
