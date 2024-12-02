@@ -149,4 +149,14 @@ for( let elem164_1 of arr164_1){
 }
 console.log('Результат задания 164 №1: ' + sum164_1);
 
+//165_1
+let obj165 = { a: 10, b: 20, c: 30, d: 40, e: 50 };
+let sum165 = 0;
+for (let elem165 in obj165) {
+    let str165 = String(obj165[elem165]);
+    if (str165[0] === '1' || str165[0] === '2') {
+        sum165 += +str165;
+    }
+}
+console.log('Результат задания 165 №1: ' + sum165);
 
