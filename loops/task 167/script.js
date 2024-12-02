@@ -166,3 +166,72 @@ for (let i = 0; i < arr20.length - 1; i++) {
 }
 console.log(week + ' ' + '<i>' + day + ' ' + '</i>');
 
+//167_21
+console.log('Результат задания 167 №21:');
+let obj21 = {
+	employee1: 100,
+	employee2: 200,
+	employee3: 300,
+	employee4: 400,
+	employee5: 500,
+	employee6: 600,
+	employee7: 700,
+};
+for (let key21 in obj21) {
+  str21 = obj21[key21] + obj21[key21] * 0.1;
+  console.log(str21);
+}
+
+//167_22
+console.log('Результат задания 167 №22:')
+let obj22 = {
+	employee1: 100,
+	employee2: 200,
+	employee3: 300,
+	employee4: 400,
+	employee5: 500,
+	employee6: 600,
+	employee7: 700,
+};
+for (let key22 in obj22) {
+  if (obj22[key22] <= 400) {
+      str22 = obj22[key22] + obj22[key22] * 0.1;
+      console.log(str22);
+  }
+}
+
+//167_23
+console.log('Результат задания 167 №23:')
+let arr23_1 = [1, 2, 3, 4, 5];
+let arr23_2 = [6, 7, 8, 9, 10];
+let obj23 = {};
+for (let i = 0; i <= 4; i++) {
+  let key23 = arr23_1[i];
+  let value23 = arr23_2[i];
+  obj23[key23] = value23;
+}
+console.log(obj23);
+
+//167_24
+console.log('Результат задания 167 №24:')
+let obj24 = { 1: 6, 2: 7, 3: 8, 4: 9, 5: 10 };
+let sum24_1 = 0;
+let sum24_2 = 0;
+for (let key24 in obj24) {
+  sum24_1 += Number(key24);
+  sum24_2 += new Number(obj24[key24]);
+}
+console.log(sum24_1 / sum24_2);
+
+//167_25
+console.log('Результат задания 167 №25:')
+let obj25 = { 'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5 };
+let arr25_1 = [];
+let arr25_2 = [];
+for (let key25 in obj25) {
+  arr25_1.push(key25);
+  arr25_2.push(obj25[key25]);
+}
+console.log(arr25_1);
+console.log(arr25_2);
+
