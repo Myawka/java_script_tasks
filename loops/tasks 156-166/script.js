@@ -62,3 +62,49 @@ for (let i = 0; i < arr160_3.length; i++) {
 }
 console.log('Результат задания 160 №3: ' + arr160_3); 
 
+//161 _1
+console.log('Результат задания 161 №1:');
+let arr161 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+let arr161_1 = [1, 2, 3, 4, 5, 6, 7];
+let obj161_1 = {};
+for (let i = 0; i < arr161.length; i++) {
+	obj161_1[arr161[i]] = arr161_1[i];
+}
+console.log(obj161_1);
+
+//161_2
+console.log('Результат задания 161 №2:');
+let obj161_2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let arr161_2 = []
+for (let key161_2 in obj161_2){
+    if ( obj161_2[key161_2] % 2 == 0){
+        arr161_2[key161_2] = obj161_2[key161_2];
+    }
+}
+console.log(arr161_2);
+
+//161_3
+console.log('Результат задания 161 №3:');
+let obj161_3 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let arr161_3 = {};
+for (let key161_3 in obj161_3) {
+    arr161_3[obj161_3[key161_3]] = key161_3;
+}
+console.log(arr161_3);
+
+//162_1
+console.log('Результат задания 162 №1:');
+let obj162_1 = {x: 1, y: 2, z: 3};
+for ( let i in obj162_1){
+    obj162_1[i] = obj162_1[i] ** 2;
+}
+console.log(obj162_1)
+
+//162_2
+console.log('Результат задания 162 №2:');
+let obj162_2 = {x: 1, y: 2, z: 3};
+for ( let i in obj162_2){
+    obj162_2[i] +=  1;
+}
+console.log(obj162_2)
+
