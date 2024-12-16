@@ -37,3 +37,26 @@ console.log('Результат задания 170 №1:');
 let arr170 = [[1, 2, 3, [4, 5, [6, 7]]], [8, [9, 10]]];
 let sum170 = arr170[0][0] + arr170[0][1] + arr170[0][2] + arr170[0][3][0] + arr170[0][3][1] + arr170[0][3][2][0] + arr170[0][3][2][1] + arr170[1][0] + arr170[1][1][0] + arr170[1][1][1];
 console.log(sum170);
+
+//171_1
+console.log('Результат задания 171 №1:');
+let arr171_1 = [[1, 2, 3], [4, 5], [6]];
+let sum171_1 = 0;
+for (let subArr171_1 of arr171_1) {
+	for (let elem171_1 of subArr171_1) {
+        sum171_1 += elem171_1;
+	}
+}
+console.log(sum171_1);
+
+//171_2
+console.log('Результат задания 171 №2:');
+let arr171_2 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+let sum171_2 = 0;
+for (let subArr171_2 of arr171_2) {
+	for (let elem171_2 of subArr171_2) {
+        for (let elem171_3 of elem171_2)
+        sum171_2 += elem171_3;
+	}
+}
+console.log(sum171_2);
