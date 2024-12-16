@@ -60,3 +60,27 @@ for (let subArr171_2 of arr171_2) {
 	}
 }
 console.log(sum171_2);
+
+//172_1
+console.log('Результат задания 172 №1:');
+let arr172_1 = [[1, 2, 3], [4, 5], [6]];
+let sum172_1 = 0;
+for (let i = 0; i < arr172_1.length; i++) {
+  for (let j = 0; j < arr172_1[i].length; j++) {
+    sum172_1 += arr172_1[i][j];
+  }
+}
+console.log(sum172_1);
+
+//172_2
+console.log('Результат задания 172 №2:');
+let arr172_2 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+let sum172_2 = 0;
+for (let i = 0; i < arr172_2.length; i++) {
+  for (let j = 0; j < arr172_2[i].length; j++) {
+    for (let k = 0; k < arr172_2[i][j].length; k++) {
+      sum172_2 += arr172_2[i][j][k];
+    }
+  }
+}
+console.log(sum172_2);
