@@ -178,3 +178,15 @@ arr196_3.splice(2, 0, 'a', 'b');
 arr196_3.splice(6, 0, 'c');
 arr196_3.splice(8, 0, 'e');
 console.log(arr196_3);
+
+//197_1
+console.log('Результат задания 197 №1:');
+let arr197 = [1, 2, 3, 4, 5];
+let res197 = arr197.includes(3);
+console.log(res197);
+
+//198_1
+console.log('Результат задания 198 №1:');
+let obj198 = {a: 1, b: 2, c: 3};
+let keys198 = Object.keys(obj198);
+console.log(keys198);
