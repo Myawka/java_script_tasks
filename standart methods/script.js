@@ -97,3 +97,52 @@ let str191_2 = "file:///D:/javascript_tasks_kate/STANDARD_METHODS/tasks%23184-19
 let res191_2 = str191_2.endsWith('.html');
 console.log(res191_2);
 
+//192_1
+console.log('Результат задания 192 №1:');
+let str192_1 = '1-2-3-4-5';
+while (str192_1.includes('-')) {
+	str192_1 = str192_1.replace('-', '.');
+}
+console.log(str192_1);
+
+//193_1
+console.log('Результат задания 193 №1:');
+let str193_1 = '1-2-3-4-5';
+let arr193_1 = str193_1.split('-');
+console.log(arr193_1);
+
+//193_2
+console.log('Результат задания 193 №2:');
+let str193_2 = '12345'
+let arr193_2 = str193_2.split('');
+console.log(arr193_2);
+
+//193_3
+console.log('Результат задания 193 №3:');
+let arr193_3= [1, 2, 3, 4, 5];
+let str193_3 = arr193_3.join('-');
+console.log(str193_3);
+
+//194_1
+console.log('Результат задания 194 №1:');
+let arr194_1 = [1, 2, 3];
+let elem = arr194_1.shift();
+console.log(elem);
+
+//194_2
+console.log('Результат задания 194 №2:');
+let arr194_2 = [1, 2, 3];
+let del = arr194_2.pop();
+console.log(del);
+
+//194_3
+console.log('Результат задания 194 №3:');
+let arr194_3 = [1, 2, 3];
+arr194_3.push(4, 5, 6);
+console.log(arr194_3);
+
+//194_4
+console.log('Результат задания 194 №4:');
+let arr194_4 = [1, 2, 3];
+arr194_4.unshift(4, 5, 6);
+console.log(arr194_4);
