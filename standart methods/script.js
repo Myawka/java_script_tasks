@@ -84,3 +84,16 @@ word190_1 = str.slice(2, 5);
 word190_2 = str.slice(6, 16);
 console.log('Метод subslice: ' + (word190_1));
 console.log('Метод subslice: ' + (word190_2));
+
+//191_1
+console.log('Результат задания 191 №1:');
+let str191_1 = "file:///D:/javascript_tasks_kate/STANDARD_METHODS/tasks%23184-198/kate_tasks%23184-198.html";
+let res191_1 = str191_1.startsWith('https://');
+console.log(res191_1);
+
+//191_2
+console.log('Результат задания 191 №2:');
+let str191_2 = "file:///D:/javascript_tasks_kate/STANDARD_METHODS/tasks%23184-198/kate_tasks%23184-198.html";
+let res191_2 = str191_2.endsWith('.html');
+console.log(res191_2);
+
