@@ -190,3 +190,53 @@ console.log('Результат задания 198 №1:');
 let obj198 = {a: 1, b: 2, c: 3};
 let keys198 = Object.keys(obj198);
 console.log(keys198);
+
+//199_1
+console.log('Результат задания 199 №1:');
+let num199_1 = 12345;
+let arr199_1 = String(num199_1).split('');
+let sum199_1 = 0;
+for (let digit199_1 of arr199_1) {
+  sum199_1 += Number(digit199_1); 
+}
+console.log(sum199_1);
+
+//199_2
+console.log('Результат задания 199 №2:');
+let num199_2 = 12345;
+let arr199_2 = String(num199_2).split('');
+let sum199_2 = 0;
+for (let digit199_2 of arr199_2) {
+  sum199_2 += Number(digit199_2); 
+}
+console.log(sum199_2); 
+
+//199_3
+console.log('Результат задания 199 №3:');
+let num199_3 = 12345;
+let arr199_3 = String(num199_3).split('');
+let sum199_3 = 0;
+for (let digit199_3 of arr199_3) {
+  sum199_3 += Number(digit199_3); 
+}
+console.log(sum199_3); 
+
+//199_4
+console.log('Результат задания 199 №4:');
+let num199_4 = 12345;
+let arr199_4 = String(num199_4).split('');
+let sum199_4 = 0; 
+for (let digit199_4 of arr199_4) {
+  sum199_4 += Number(digit199_4); 
+}
+console.log(sum199_4); 
+
+//199_5
+console.log('Результат задания 199 №5:');
+let num199_5 = 12345;
+let arr199_5 = String(num199_5).split('');
+let prod199_5 = 1; 
+for (let digit199_5 of arr199_5) {
+  prod199_5 *= Number(digit199_5); 
+}
+console.log(prod199_5); 
