@@ -269,3 +269,68 @@ for (let i = 0, k13 = 1; i < 3; i++) {
   }
 }
 console.log(arr175_13);
+
+//176_1
+console.log('Результат задания 176 №1:');
+let obj176_1 = {
+  key1: {
+    key1: 1,
+    key2: 2,
+    key3: 3,
+  },
+  key2: {
+    key1: 4,
+    key2: 5,
+    key3: 6,
+  },
+  key3: {
+    key1: 7,
+    key2: 8,
+    key3: 9,
+  },
+}
+let sum176_1 = 0;
+for (let key in obj176_1) {
+  for (let innerKey in obj176_1[key]) {
+    sum176_1 += obj176_1[key][innerKey];
+  }
+}
+console.log(sum176_1); // Вывод: 45
+
+//176_2
+console.log('Результат задания 176 №2:');
+let obj176_2 = {
+  1: {
+    1: 'a1',
+    2: 'a2',
+    3: 'a3',
+  },
+  2: {
+    1: 'b1',
+    2: 'b2',
+    3: 'b3',
+  },
+  3: {
+    1: 'c1',
+    2: 'c2',
+    3: 'c3',
+  },
+}
+console.log(obj176_2[2][2]); 
+console.log(obj176_2[3][1]); 
+
+//176_3
+console.log('Результат задания 176 №3:');
+let obj176_3 = {
+  key1: {
+    a: 1, b: 2, c: {
+      d: 3,
+      e: 4,
+    }, f: 5,
+  },
+  key2: {
+    g: 6, h: 7,
+  },
+}
+let sum176_3 = obj176_3.key1.a + obj176_3.key1.b + obj176_3.key1.c.d + obj176_3.key1.c.e + obj176_3.key1.f + obj176_3.key2.g + obj176_3.key2.h;
+console.log(sum176_3); 
